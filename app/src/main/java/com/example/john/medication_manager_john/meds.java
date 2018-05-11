@@ -20,7 +20,7 @@ public class meds implements Serializable {
 
 
 
-    public Meds(long id, String name, String amount, String unit, String Frequency)
+    public meds(long id, String name, String amount, String unit, String Frequency)
     {
         this.id = id;
         this.name = name;
