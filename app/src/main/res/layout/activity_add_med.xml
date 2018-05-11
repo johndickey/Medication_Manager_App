@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="382dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/editTextMedName"
+            android:layout_width="179dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Enter Medication Name" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="383dp"
+        android:layout_height="92dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="79dp">
+
+        <EditText
+            android:id="@+id/editTextAmount"
+            android:layout_width="371dp"
+            android:layout_height="69dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Enter Amount of Dose" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="384dp"
+        android:layout_height="82dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="171dp">
+
+        <Spinner
+            android:id="@+id/spinnerUnit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:entries="@array/units_array" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="375dp"
+        android:layout_height="97dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="268dp">
+
+        <Spinner
+            android:id="@+id/spinnerFrequency"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_weight="1"
+            android:entries="@array/frequency_array" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="381dp"
+        android:layout_height="94dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="394dp">
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="367dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="SAVE" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

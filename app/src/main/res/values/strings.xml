@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Medication_Manager_John</string>
+    
+    <string-array name="units_array">
+        <item>Select Unit</item>
+        <item>mL</item> 
+        <item>mg</item>
+        <item>tablet</item>
+        <item>capsule</item>
+        <item>unit</item>
+        <item>each</item>
+        <item>oz</item>
+    </string-array>
+
+    <string-array name="frequency_array">
+        <item>Select a Frequency</item>
+        <item>Once a Day</item>
+        <item>Twice a Day</item>
+        <item>Three times a Day</item>
+        <item>Every Hour</item>
+        <item>Every Two Hours</item>
+        <item>Every Three Hours</item>
+        <item>Before Meals</item>
+        <item>After Meals</item>
+        <item>In the Morning</item>
+        <item>Before Bed</item>
+    </string-array>
+</resources>
